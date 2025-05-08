@@ -1,3 +1,4 @@
+import 'dart:developer';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -8,7 +9,7 @@ import 'package:te/presentation/timer_screen/timer_screen.dart';
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
 
-  final ItemRepo itemRepo = ItemRepo(); // Создаём репозиторий
+  final ItemRepo itemRepo = ItemRepo();
 
   void exitApp() {
     exit(0);
@@ -87,6 +88,7 @@ class HomeScreen extends StatelessWidget {
                           // Динамическое отображение элементов
                           Expanded(
                             child: GridView.builder(
+                              physics: NeverScrollableScrollPhysics(),
                               padding: const EdgeInsets.symmetric(
                                 horizontal: 20,
                               ),
@@ -102,7 +104,7 @@ class HomeScreen extends StatelessWidget {
                                 final item = itemRepo.eggTimer.items[index];
                                 return GestureDetector(
                                   onTap: () {
-                                    print(
+                                    log(
                                       "Выбрано: ${item.name}, изображение: ${item.imagePath}, time: ${item.timerDone.toString()}",
                                     );
                                     Navigator.pushAndRemoveUntil(
