@@ -102,6 +102,7 @@ class StartScreen extends StatelessWidget {
                               borderRadius: BorderRadius.circular(13),
                             ),
                             child: Center(
+                              //text
                               child: Text(
                                 'Start!',
                                 style: TextStyle(
