@@ -1,16 +1,23 @@
 # te
 
-A new Flutter project.
+A Flutter app with a custom design and thoughtful features.
+
+## Description
+
+This app includes a unique UI (some parts you can see in my portfolio), with nice touches like device vibration when the timer ends and a small embedded form. It’s a simple, pleasant app designed for everyday use.
+
+## Features
+
+- Custom timer with vibration on completion
+- Simple, clean UI
+- Small interactive form component
+- Works smoothly on both Android and iOS
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run the project:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/leeerrrrmmm/te.git
+   cd te
