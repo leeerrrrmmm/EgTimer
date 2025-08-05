@@ -1,4 +1,4 @@
-# te
+# EgTimer
 
 A Flutter app with a custom design and thoughtful features.
 
@@ -19,5 +19,5 @@ To run the project:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/leeerrrrmmm/te.git
-   cd te
+   git clone https://github.com/leeerrrrmmm/EgTimer.git
+   cd EgTimer
